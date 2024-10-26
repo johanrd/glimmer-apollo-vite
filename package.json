@@ -102,5 +102,10 @@
   "exports": {
     "./tests/*": "./tests/*",
     "./*": "./app/*"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "glimmer-apollo": "^0.6.6",
+    "graphql": "^16.9.0"
   }
 }
